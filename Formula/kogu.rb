@@ -1,8 +1,8 @@
 class Kogu < Formula
   desc "Kogu toolset for tracking data science projects"
   homepage "https://kogu.io"
-  url "https://github.com/kogu-io/kogu/releases/download/v0.2.7.75/kogu_0.2.7.75_macos_amd64.zip"
-  sha256 "b1f807793725c2fa6d3db1890cd71693178361594eee7431b268d33a7e3fc5f8"
+  url "https://github.com/kogu-io/kogu/releases/download/v0.3.1.85/kogu_0.3.1.85_macos_amd64.zip"
+  sha256 "047424391fa6ab98faf32f2c2173e5aeabb306e3338a28e7fc75182d64812622"
 
   def install
     bin.install "kogu-server"
